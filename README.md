@@ -19,7 +19,7 @@ Regarding testing approach I employed pytest for its simplicity and speed. There
 Robot Framework is a common open-source automation framework for Acceptance Testing, Acceptance  
 Test-Driven Development (ATTD), and Robotic Process Automation (RPA). A good old alternative could be unittest.
 
-### 2) Running Steps
+## Running Steps
 There are 2 options: run it directly using python command or run it by script.
 
 If you wish to execute the script simply:
@@ -96,7 +96,7 @@ Times of major page faults              : 0
 Times of minor page faults              : 180484
 ```
 
-## Warnings 
+## Possible Errors
 
 If for some reason python3 cannot execute the script locate the python 3 install folder in your machine
 and change the script test_setup.sh in line:
