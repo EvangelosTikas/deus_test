@@ -96,7 +96,16 @@ Times of major page faults              : 0
 Times of minor page faults              : 180484
 ```
 
+## Warnings 
 
+If for some reason python3 cannot execute the script locate the python 3 install folder in your machine
+and change the script test_setup.sh in line:
+
+```
+...
+<python 3 folder location> -m venv venv 
+...
+```
 
 
 
