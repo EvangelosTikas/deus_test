@@ -1,0 +1,41 @@
+Successful request:
+POST /api/v1/authentication/login HTTP/1.1
+Host: 0.0.0.0:8000
+Content-Type: application/json
+cache-control: no-cache
+{
+"email": "admin@ekmechanes.com",
+"password": "Password!!!!!"
+}
+response:
+{
+"data": {
+"jwt": {
+"accessToken":
+"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY3OTcwNzYsIm5iZiI6MTU1Njc5
+NzA3NiwianRpIjoiNjhkNzRhZDYtNzY1Yy00MWEwLWJiNWYtMmEwMzE2YjFkNmY0IiwiZXhwIj
+oxNTU2ODgzNDc2LCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoiNWNhNWRkZDIzYmY3NzU0NjU0M2
+UyYzlmIiwib3duZXJfaWQiOiI1Y2Ejc3NTQ2NTQzZTJjOWYiLCJzY29wZSI6ImFkbWluX3VzZXIif
+SwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MifQ.b6Jd-_cW_l52FHEiwxJtgbaoXKpiKARlALB5
+m672o7Q"
+}
+},
+"status": "200"
+}
+3
+-----------------------------------------------------------
+erroneous request:
+{
+"email": "admin@ekmechanes.com",
+"password": "P4ssword!!!!!"
+}
+response:
+{
+"error": {
+"messages": [
+"Invalid username-password combination."
+]
+},
+"status": "400"
+}
+

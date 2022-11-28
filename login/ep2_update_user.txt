@@ -1,0 +1,35 @@
+Successful request:
+PUT /api/v1/users/5ca5ddd23bf77546543e2c9f HTTP/1.1
+Host: 0.0.0.0:8000
+Content-Type: application/json
+Authorization: Bearer
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NTY3OTcwNzYsIm5iZiI6MTU1Njc5N
+zA3NiwianRpIjoiNjhkNzRhZDYtNzY1Yy00MWEwLWJiNWYtMmEwMzE2YjFkNmY0IiwiZXhwIjo
+xNTU2ODgzNDc2LCJpZGVudGl0eSI6eyJ1c2VyX2lkIjoiNWNhNWRkZDIzYmY3NzU0NjU0M2U
+yYzlmIiwib3duZXJfaWQiOiIjc3NTQ2NTQzZTJjOWYiLCJzY29wZSI6ImFkbWluX3VzZXIifSwiZnJ
+lc2giOnRydWUsInR5cGUiOiJhY2Nlc3MifQ.b6Jd-_cW_l52FHEiwxJtgbaoXKpiKARlALB5m672o
+7Q
+{
+"email": "admin@ekmechanes.com",
+"role": "admin",
+"active": false
+}
+response:
+{
+"data": {
+"user": {
+"active": false,
+"createdAt": "2019-04-04 10:34:58.981000",
+"createdBy": "5c6d11513bf77553560b6a4d",
+"email": "admin@ekmechanes.com",
+"id": "5ca5ddd23bf77546543e2c9f",
+"passwordChanged": false,
+4
+"role": "admin",
+"updatedAt": "2019-05-02 11:56:17.624482",
+"updatedBy": "5ca5ddd23bf77546543e2c9f"
+}
+},
+"status": "200"
+}
+----------------------------------------------
