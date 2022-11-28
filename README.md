@@ -106,7 +106,12 @@ and change the script test_setup.sh in line:
 <python 3 folder location> -m venv venv 
 ...
 ```
+A usual problem may be that your python version does not support the pytest version provided (7.2.0) in the requirements.txt.
+Simply edit requirements with an older version like:
 
+```
+pytest==7.0.1
+```
 
 
 
