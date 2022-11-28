@@ -5,9 +5,9 @@
 
 echo "Creating python virtual environment"
 
-#python3 -m venv venv
+python3 -m venv venv
 ##  or using python location (personalized)
-/tools/common/pkgs/pyenv/versions/3.8.13/bin/python3 -m venv venv
+#/tools/common/pkgs/pyenv/versions/3.8.13/bin/python3 -m venv venv
 
 echo "Activating the venv"
 source venv/bin/activate
